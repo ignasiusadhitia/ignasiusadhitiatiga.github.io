@@ -1,0 +1,122 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #ffc30f;
+}
+
+
+h1 {
+    padding-top: 30px;
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container-top, .container-middle-top, .container-middle-bottom, .container-bottom, footer {
+    margin-top: 50px;
+}
+
+.container-top h2 {
+    padding: 0;
+    text-align: left;
+}
+
+.carousel {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.img-1, .img-2, .img-3 {    
+    background-repeat: no-repeat;
+    background-size: 250%;    
+    height: 600px;    
+}
+
+.img-1 {
+    background-image: url("profile1.jpg");
+    background-position: 50% 75%;
+}
+
+.img-2, .img-3 {
+    background-position: top;
+    background-size: 250%;
+}
+
+.img-2 {
+    background-image: url("profile2.jpg");
+}
+
+.img-3 {
+    background-image: url("profile3.jpg");
+
+}
+
+.container-image {
+    width: 300px;
+    background-image: url("profile4.jpg");
+    background-repeat: no-repeat;
+    background-position: 22% 10%;
+    background-size: 250%;    
+    height: 300px;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+.card, .form-control {
+    background-color: #ffc30f;
+    border: 1px solid #212529;
+}
+
+.card-body {
+    color: #212529;    
+}
+
+footer {
+    background-color: #212529;
+    padding: 25px;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: grey;
+}
+
+footer span {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+footer i {
+    font-size: 30px;
+}
+
+.fab {
+    padding: 15px;
+}
+
+.copyright {
+    padding-top: 70px;
+    font-size: 12px;
+    text-align: center;
+}
